@@ -1,22 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Print the alphabet in lowercase letters, except for e and q
+ * main - rints all single digit numbers of base 10 starting from 0
  * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
-	char letter;
+	int i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
-	}
+	for (i = 0; i <= 9; i++)
+		printf("%i", i);
 	putchar('\n');
-
 	return (0);
-
 }
