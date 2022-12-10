@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - putchar alphabets
  *
@@ -13,8 +14,9 @@ int main(void)
 	{
 		for (l = 0; l <= 9; l++)
 		{
-		if (i < l)
-		{
+
+			if (i < l)
+			{
 				putchar((i % 10) + '0');
 				putchar((l % 10) + '0');
 				if (i != 8 || l != 9)
