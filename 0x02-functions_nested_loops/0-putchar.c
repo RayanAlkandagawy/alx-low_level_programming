@@ -12,7 +12,7 @@ int main(void)
 	int z = strlen(ch);
 
 		for (i = 0; i < z ; i++)
-			_putchar(ch[i]);
+		_putchar(ch[i]);
 	_putchar('\n');
-	return (0);
+		return (0);
 }
